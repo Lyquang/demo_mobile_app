@@ -4,8 +4,8 @@ Demo project hướng dẫn **Unit Testing** với **Jest** và **React Native T
 
 [![Run Tests](https://github.com/Lyquang/demo_mobile/actions/workflows/test.yml/badge.svg)](https://github.com/Lyquang/demo_mobile/actions/workflows/test.yml)
 [![SonarCloud](https://github.com/Lyquang/demo_mobile/actions/workflows/sonarcloud.yml/badge.svg)](https://github.com/Lyquang/demo_mobile/actions/workflows/sonarcloud.yml)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=coverage)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Lyquang_demo_mobile_app&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Lyquang_demo_mobile_app)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Lyquang_demo_mobile_app&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Lyquang_demo_mobile_app)
 
 ## Tổng quan
 
@@ -285,7 +285,7 @@ Sau khi tạo project, lấy thông tin:
 Tạo file `sonar-project.properties`:
 
 ```properties
-sonar.projectKey=YOUR_PROJECT_KEY
+sonar.projectKey=Lyquang_demo_mobile_app
 sonar.organization=YOUR_ORGANIZATION_KEY
 
 sonar.projectName=Demo Mobile - React Native Testing
@@ -366,8 +366,8 @@ jobs:
 ### Bước 7: Thêm badges vào README
 
 ```markdown
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=YOUR_PROJECT_KEY&metric=coverage)](https://sonarcloud.io/summary/new_code?id=YOUR_PROJECT_KEY)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Lyquang_demo_mobile_app&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Lyquang_demo_mobile_app)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Lyquang_demo_mobile_app&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Lyquang_demo_mobile_app)
 ```
 
 ---
@@ -481,4 +481,4 @@ MIT License - Dự án demo cho mục đích học tập.
 
 ---
 
-**Lưu ý**: Thay thế `Lyquang`, `YOUR_PROJECT_KEY`, `YOUR_ORGANIZATION_KEY` bằng thông tin thực tế của bạn.
+**Lưu ý**: Thay thế `Lyquang`, `Lyquang_demo_mobile_app`, `YOUR_ORGANIZATION_KEY` bằng thông tin thực tế của bạn.
